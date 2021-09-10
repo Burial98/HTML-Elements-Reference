@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML & CSS Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1> HTML Elements Reference</h1>
+        <nav>
+            <ul class="topnav">
+                <li><a href="#main" class="nav1">Main</a></li>
+                <li><a href="#meta" class="nav2">Meta</a></li>
+                <li><a href="#root" class="nav3">Root</a></li>
+                <li><a href="#section" class="nav4">Section</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main">
+            <h2>Main Root</h2>
+            <div class=background-table-1>
+                <table>
+                    <thead>
+                        <th>Element</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;html&gt;</td>
+                            <td>The <strong>&lt;html&gt;</strong> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the <i>root element</i>. All other elements must bei descendants of this element.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>    
+        </section>
+        <section id="meta">
+            <h2>Document Metadata</h2>
+            <div class=background-table-2>
+                <table>
+                    <thead>
+                        <th>Element</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;base&gt;</td>
+                            <td>The <strong>&lt;base&gt;</strong> HTML element specifies the base URL to use for all <i>relative</i> URLs in a document. There can only be one &lt;base&gt; element in a document.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td>The <strong>&lt;head&gt;</strong> HTML element contains machine-readable information <i>(metadata)</i>about the document, like its title, scripts and style sheets.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;link&gt;</td>
+                            <td>The <strong>&lt;link&gt;</strong> HTML element specifies <i>relationships</i> between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;meta&gt;</td>
+                            <td>The <strong>&lt;meta&gt;</strong> HTML element represents <i>Metadata</i> that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;style&gt;</td>
+                            <td>The <strong>&lt;style&gt;</strong> HTML element contains <i>style information</i> for a document, or part of a document. It contains CSS, wich is applied to the contents of the document containing the &lt;style&gt; element.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td>The <strong>&lt;title&gt;</strong> HTML element defines the <i>document's title</i> that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </section>
+        <section id="root">
+            <h2>Sectioning Root</h2>
+            <div class=background-table-3>
+                <table>
+                    <thead>
+                        <th>Element</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;body&gt;</td>
+                            <td>The <strong>&lt;body&gt;</strong> HTML element represents the <i>content</i> of an HTML document. There can be only one &lt;body&gt; element in a document.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="section">
+            <h2>Content Sectioning</h2>
+            <div class="background-table-4">
+                <table>
+                    <thead>
+                        <th>Element</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;address&gt;</td>
+                            <td>The <strong>&lt;address&gt;</strong> HTML element indicates that the enclosed HTML provides <i>contact information</i> for a person or people, or for an organization</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;article&gt;</td>
+                            <td>The <strong>&lt;article&gt;</strong> HTML element represents a self-contained <i>composition</i> in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;aside&gt;</td>
+                            <td>The <strong>&lt;aside&gt;</strong> HTML element represents a portion of a document whose content is only <i>indirectly</i> related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;footer&gt;</td>
+                            <td>The <strong>&lt;footer&gt;</strong> HTML element represents a footer for its nearest sectioning content or sectioning root element. A &lt;footer&gt; typically contains information about the <i>author</i> of the section, copyright data or links to related documents.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;header&gt;</td>
+                            <td>The <strong>&lt;header&gt;</strong> HTML element represents <i>introductory content</i>, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt;</td>
+                            <td>The <strong>&lt;h1&gt;</strong> to <strong>&lt;h6&gt;</strong> HTML elements represent six levels of <i>section headings</i>. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;main&gt;</td>
+                            <td>The <strong>&lt;main&gt;</strong> HTML element represents the <i>dominant content</i> of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;nav&gt;</td>
+                            <td>The <strong>&lt;nav&gt;</strong> HTML element represents a section of a page whose purpose is to provide <i>navigation</i> links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;section&gt;</td>
+                            <td>The <strong>&lt;section&gt;</strong> HTML element represents a generic <i>standalone section</i> of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created as a project in the Web Development Course at <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a>. Content by <a href="https://developer.mozilla.org" target="_blank">MND Web Docs</a>.</p>
+        <p>By Alex, 2021</p>
+    </footer>
+</body>
+</html>
